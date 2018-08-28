@@ -13,7 +13,7 @@ const puppeteer = require('puppeteer');
     return img
   };
   const pages = [];
-  for (let i = 0; i < 80; i++) {
+  for (let i = 0; i < 30; i++) {
     pages.push(renderSingle(i))
   }
   const images = await Promise.all(pages);
